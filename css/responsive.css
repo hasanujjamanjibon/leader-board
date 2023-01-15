@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px) {
+  .player-section > .player-profile {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player-section > .player-profile > .player-data {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .player-section > .player-profile > .player-data {
+    flex-direction: column;
+  }
+  .player-section > .player-profile > .player-data > .player-img {
+    height: auto;
+    width: 20%;
+  }
+
+  .blog-section > .blog-data-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .blog-section > .blog-data-section > .blog-box {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .blog-box img {
+    height: auto;
+    width: 100%;
+  }
+  .courses > .container > .course-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .player-section > .player-profile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog-section > .blog-data-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .courses > .container > .course-list {
+
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}
